@@ -1,0 +1,56 @@
+.Editor {
+
+}
+
+.Editor .editor_section {
+    margin-bottom: 40px;
+}
+
+.Editor h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Editor input {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 234, 175);
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'PyeongChangPeace';
+}
+
+.Editor textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'PyeongChangPeace';
+}
+
+.Editor input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.Editor textarea {
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    resize:vertical;
+}
+
+.Editor .bottom_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Editor .emotion_list_wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}

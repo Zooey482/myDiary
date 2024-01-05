@@ -1,0 +1,29 @@
+.Button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+    font-family: 'PyeongChangPeace';
+    font-weight: 300;
+}
+
+.Button_default {
+    background-color:  rgb(79, 245, 192);
+    color: black;
+    font-size: 14px;
+}
+
+.Button_positive {
+    background-color: rgb(19, 120, 252);
+    color: white;
+}
+
+.Button_negative {
+    background-color: rgb(18, 80, 116);
+    color: rgb(255, 255, 255);
+}
